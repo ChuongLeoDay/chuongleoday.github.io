@@ -1,0 +1,153 @@
+
+.container-registration {
+    width: 800px;
+    height: 600px;
+    background-color: #f7f8f9;
+    border-radius: 5px;
+    margin: 50px auto;
+    border: 1px solid #f7f8f9;
+}
+
+.container-body {
+    width: 700px;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+}
+
+.content-body-left {
+    float: left;
+    width: 400px;
+    height: 100%;
+}
+
+#tilte-registration {
+    padding-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ff6c4b;
+}
+
+.input-registration {
+    margin-top: 30px;
+}
+
+.input-registration input {
+    display: block;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 40px;
+    border: 1px none;
+    border-radius: 5px;
+    font-size: 15px;
+    background-color: #f6f8fa;
+    padding: 5px;
+    transition: 0.4s ease;
+}
+
+.input-registration input:hover {
+    border: 3px solid #ff6c4b;
+    font-size: 17px;
+}
+#input-bottom{
+    margin-bottom: 10px;
+}
+.col-icon {
+    width: calc(100%/3);
+    margin-top: 0px;
+    width: 100%;
+    height: 50px;
+}
+
+.display-icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.col-icon i {
+    width: 30px;
+    height: 30px;
+    border: 2px solid black;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 30px;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 5px;
+    transition: 0.25s ease;
+}
+.fa-facebook-f:hover{
+    color:#1877f2;
+    border-color: #1877f2;
+    font-size: 25px;
+}
+.fa-instagram:hover{
+    /* color: rgb(#8a3ab9, #e95950, #bc2a8d,#fccc63,#fbad50,#cd486b,#4c68d7); */
+    /* color: rgb(#8a3ab9, #e95950, #bc2a8d); */
+    color: rgb(131, 58, 180);
+    border-color: rgb(131, 58, 180);
+    font-size: 25px;
+}
+.fa-vk:hover{
+color:rgb(62, 156, 214);
+border-color:rgb(62, 156, 214);
+font-size: 25px;
+}
+a{
+    text-decoration: none;
+    color: #ff6c4b;
+    transition: 0.5s ease;
+}
+a:hover{    
+    color: #ff6c4b;
+    font-size: 20px;
+}
+.checkbox-registration input{
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+}
+.button-registraition{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.button-registraition button{
+    margin-left: 20px;
+    width: 120px;
+    height: 40px;
+    transition: 0.5s ease;
+}
+#sign-up{
+    background-color: #ff6c4b;
+    border-radius: 5px;
+    color: white;
+    border: hidden;
+}
+#sign-in{
+    border: 1px solid #ff6c4b;
+    color: #ff6c4b;
+    border-radius: 5px;
+    background-color: white;
+}
+#sign-up:hover{
+    width: 145px;
+    height: 45px;
+}
+#sign-in:hover{
+    width: 130px;
+    height: 45px;
+}
+.content-body-right{
+    width: 300px;
+    height: 100%;
+    float: right;
+}
+.content-body-right img{
+    width: 100%;
+    height: 100%;
+}

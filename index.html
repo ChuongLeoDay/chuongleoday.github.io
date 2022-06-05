@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đồ án cuối kì</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/fonts/icons-1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+      <link rel="icon" type="image/x-icon" href="./assets/image/logo/logofavicon.png">
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+</head>
+<body>                          
+    
+    <div class="main">
+        <header class="header js-headerTC">
+           <div class="two-row width-100 top-header-content js-header-1-content">
+               <div class="three-col"></div>
+               <div class="three-col display-flex">
+                   <div style="position: relative; height: 40px;" class="width-100">
+                    <input class="search-san-pham" type="text" placeholder="Tìm kiếm sản phẩm">
+                    <button class="search-san-pham-btn hover-content-header-btn-tk" style="position: absolute; top: 0; right: 0;"><i class="bi bi-search"></i></button>
+                   </div>
+               </div>
+               <div class="three-col display-flex">
+                    <div class="five-col text-center font-18 font-b hover-content-header js-listen-log-in"><i class="bi bi-person-fill"></i></div>
+                    <div class="five-col text-center font-18 font-b hover-content-header js-listen-open-cart"><div class="icon-so-luong-sp-trong-cart">0</div><i class="bi bi-cart-fill"></i></div>
+                    <div class="four-col text-center font-18 font-b hover-content-header">
+                        <a href="tel:+18001090"  class="hover-content-header color-text-black">
+                            <i class="bi bi-headset"></i> 
+                            18001090
+                        </a>
+                    </div>
+               </div>
+           </div>
+           <div class="two-row width-100 bottom-header-content js-bottom-header-contentTC display-flex">
+               <ul class="ul-content-header">
+               <div style="height: 100%;" class="three-col display-flex">
+                   <li style="overflow:hidden ;" class="two-col text-center font-18 font-b li-header-content"><a class="hover-content-header-1" href="./index.html">Trang chủ</a></li>
+                   
+                        <li class="two-col text-center font-18 font-b hover-content-header-1 menu-father li-header-content js-li-header-content">
+                            Sản phẩm <i id="js-mui-ten-1" style="margin-top: 3px; margin-left: 4px; position: fixed; right: 71%;" class="bi bi-chevron-down active-about-us-content-closed"></i>
+                            <i id="js-mui-ten-2" style="margin-top: 3px; margin-left: 4px; position: fixed; right: 71%;" class="bi bi-chevron-right"></i>
+                            <!-- Làm menu cấp hai sản phẩm -->
+                            <div class="menu-container">
+                            
+                                <div class="menu-item">
+                                    <h4>
+                                        <i class="bi bi-phone"></i>    
+                                        Điện Thoại
+                                    </h4>
+                                    <ul class="menu-child-list">
+                                        <li><img class="menu-child-list-img" src="https://thenextkart.in/wp-content/uploads/2021/04/11f.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/samsungnew-220x48-1.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt=""></li>
+                                    </ul>
+                                </div>
+    
+                                <div class="menu-item">
+                                    <h4>
+                                        <i class="bi bi-laptop"></i>     
+                                        Laptop
+                                    </h4>
+                                    <ul class="menu-child-list">
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-macbook-149x40.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-hp-149x40-1.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-msi-149x40.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40.png" alt=""></li>
+                                    </ul>
+                                </div>
+    
+                                <div class="menu-item">
+                                    <h4>
+                                        <i class="bi bi-smartwatch"></i> 
+                                        Đồng Hồ
+                                    </h4>
+                                    <ul class="menu-child-list">
+                                        <li><img class="menu-child-list-img" src="https://cellphones.com.vn/media/icons/brands/brand-1114.svg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cellphones.com.vn/media/icons/brands/brand-garmin.svg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cellphones.com.vn/media/icons/brands/brand-418.svg" alt=""></li>
+                                    </ul>
+                                </div>
+    
+                                <div class="menu-item">
+                                    <h4>
+                                        <i class="bi bi-speaker"></i> 
+                                        Âm Thanh
+                                    </h4>
+                                    <ul class="menu-child-list">
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Category/Quicklink/2162/1/310521-033131.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cellphones.com.vn/media/icons/brands/brand-204.svg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cellphones.com.vn/media/icons/brands/brand-215.svg" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Category/Quicklink/2162/1/040621-093638.png" alt=""></li>
+                                    </ul>
+                                </div>
+
+                                <div class="menu-item">
+                                    <h4>
+                                        <i class="ti-desktop"></i>    
+                                        PC
+                                    </h4>
+                                    <ul class="menu-child-list">
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40-10.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-apple-220x48-2.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-lenovo-149x40-6.png" alt=""></li>
+                                        <li><img class="menu-child-list-img" src="https://cdn.tgdd.vn/Brand/1/logo-asus-149x40-10.png" alt=""></li>
+                                    </ul>
+                                </div>
+    
+                            </div>
+                        </li>
+                        
+                        <!-- Menu cấp hai sản phẩm xong -->
+                    
+                    
+               </div>
+               <div class="three-col text-center font-18 font-b">
+                   <img style="height: 80px;" src="./assets/image/logo/logofulldaomau1-tachphong.png" alt="">
+               </div>
+               <div style="height: 100%;" class="three-col display-flex">
+                   <li class="two-col text-center font-18 font-b li-header-content "><a class="hover-content-header-1" href="./aboutus.html">Về Chúng tôi</a></li>
+                   <li style="overflow:hidden ;" class="two-col text-center font-18 font-b li-header-content"><a class="hover-content-header-1" href="./contact.html">Liên hệ</a></li>
+               </div>
+                </ul>
+           </div>
+        </header>
+        
+
+       <div class="content">
+           
+           <!-- Slider quảng cáo / ảnh quảng cáo-->
+           <div class="quang-cao-container">
+               <div class="slider-quang-cao-content">
+                   <div class="slider-quang-cao-item"><img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/flip_3.png" alt="" class="img-quang-cao-slider-item"></div>
+                   <div class="slider-quang-cao-item"><img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/CX_Plus.png" alt="" class="img-quang-cao-slider-item"></div>
+                   <div class="slider-quang-cao-item"><img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/690x300_Macbook-Air-M1.png" alt="" class="img-quang-cao-slider-item"></div>
+                   <div class="slider-quang-cao-item"><img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/red_magic_7.png" alt="" class="img-quang-cao-slider-item"></div>
+                   <div class="slider-quang-cao-item"><img src="https://cdn.tgdd.vn/2022/05/banner/2880-800-1920x533-3.png" alt="" class="img-quang-cao-slider-item"></div>
+               </div>
+               <div class="hinh-qc-content">
+                   <div class="three-row div-img-quang-cao">
+                        <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/Galaxy_A23.png" alt="" class="img-quangcao-content">
+                   </div>
+
+                   <div class="three-row div-img-quang-cao">
+                        <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/iPhone_11.png" alt="" class="img-quangcao-content">
+                   </div>
+
+                   <div class="three-row div-img-quang-cao">
+                        <img src="https://cdn.cellphones.com.vn/media/ltsoft/promotion/idepad_3.png" alt="" class="img-quangcao-content">
+                    </div>
+                </div>
+           </div>
+
+           <!-- Phần top thương hiệu nổi bật -->
+           <div class="thuong-hieu-container">
+               <div class="tieu-de">
+                   <div style="width: 21.5%;" class="tieu-de-item"><p>THƯƠNG HIỆU NỔI BẬT</p></div>
+               </div>
+
+               <div class="thuong-hieu-slider-container">
+                   <div class="two-col thuong-hieu-slider-content">
+                       <div class="lam-mo-anh"></div><img src="https://images.unsplash.com/photo-1616353071588-708dcff912e2?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" alt="" class="img-thuong-hieu-slider-content">
+                       <div class="div-btn-va-thuong-hieu"><p>Apple</p><button>MUA</button></div>
+                    
+                    </div>
+                   <div class="two-col thuong-hieu-slider-content">
+                       <div class="lam-mo-anh"></div><img src="https://images.unsplash.com/photo-1620288650879-20db0eb38c05?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" alt="" class="img-thuong-hieu-slider-content">
+                       <div class="div-btn-va-thuong-hieu"><p>Samsung</p><button>MUA</button></div>
+                    
+                    </div>
+
+                    <div class="two-col thuong-hieu-slider-content">
+                        <div class="lam-mo-anh"></div><img src="https://images.unsplash.com/photo-1644982648774-83312909bbef?ixlib=rb-1.2.1&raw_url=true&q=80&fm=jpg&crop=entropy&cs=tinysrgb&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170" alt="" class="img-thuong-hieu-slider-content">
+                        <div class="div-btn-va-thuong-hieu"><p>Oppo</p><button>MUA</button></div>
+                     
+                     </div>
+
+                     <div class="two-col thuong-hieu-slider-content">
+                        <div class="lam-mo-anh"></div><img src="https://images.unsplash.com/photo-1594238543503-3a92f31d0fd4?crop=entropy&cs=tinysrgb&fm=jpg&ixlib=rb-1.2.1&q=80&raw_url=true&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1204" alt="" class="img-thuong-hieu-slider-content">
+                        <div class="div-btn-va-thuong-hieu"><p>Huawei</p><button>MUA</button></div>
+                     
+                     </div>
+               </div>
+            </div>
+
+            <!-- Phân sản phẩm nổi bật -->
+            <div class="san-pham-noi-bat-container">
+                <div class="tieu-de">
+                    <div class="tieu-de-item"><p style="width: 80%;">LỰA CHỌN HÀNG ĐẦU</p></div>
+                </div>
+                <div class="san-pham-chung-slider display-flex">
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/42/223602/s16/iphone-13-red-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Iphone 13 128GB</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">21</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">420</span> <span>.</span> <span class="gia-tien-san-pham-content-3">989</span> <span>đ (-14%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/42/236780/s16/iphone-13-mini-black-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>iPhone 13 mini
+                            </h3>
+                            <span class = "span-gia-tien-san-pham-content-1">18</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">490</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-16%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.cellphones.com.vn/media/catalog/product/cache/7/small_image/9df78eab33525d08d6e5fb8d27136e95/s/m/sm-g990_s21fe_backfront_lv.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Samsung Galaxy S21 FE 5G</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">13</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">300</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-26%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/42/230529/s16/iphone-13-pro-max-gold-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Iphone 13 Promax 128GB </h3>
+                            <span class = "span-gia-tien-san-pham-content-1">29</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">990</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-11%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/42/153856/s16/iphone-11-green-1-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Iphone 11 64GB</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">11</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">990</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-20%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/42/213031/s16/iphone-12-purple-3-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Iphone 12 64GB</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">17</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">490</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-19%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.cellphones.com.vn/media/catalog/product/cache/7/small_image/9df78eab33525d08d6e5fb8d27136e95/c/o/combo_product_-_rainbow_spectrum_-_reno7_z.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>OPPO Reno7 Z (5G)
+                            </h3>
+                            <span class = "span-gia-tien-san-pham-content-1">10</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">490</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-16%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.cellphones.com.vn/media/catalog/product/cache/7/small_image/9df78eab33525d08d6e5fb8d27136e95/c/o/combo_product_-_black_-_reno7_4g.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>OPPO Reno7 4G (8GB - 128GB)</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">8</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">490</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-3%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+
+                    
+                </div>
+            </div>
+
+            <!-- Phần sản phảm lap top -->
+            <div class="san-pham-noi-bat-container">
+                <div class="tieu-de">
+                    <div class="tieu-de-item"><p style="width: 62%;">LAP TOP NỔI BẬT</p></div>
+                </div>
+                <div class="san-pham-chung-slider display-flex">
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/44/253581/s16/apple-macbook-pro-14-m1-pro-2021-xam-thumb-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>Apple MacBook Air M1 256GB 2020</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">21</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">420</span> <span>.</span> <span class="gia-tien-san-pham-content-3">989</span> <span>đ (-14%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/44/253636/s16/macbook-pro-16-m1-pro-2021-bac-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>MacBook Pro 16 inch M1 Pro 2021 16-Core GPU
+                            </h3>
+                            <span class = "span-gia-tien-san-pham-content-1">18</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">490</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-16%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/44/239552/s16/macbook-air-m1-2020-spacegray-thumb-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>MacBook Air 13 inch M1 2020 7-Core GPU</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">13</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">300</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-26%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/44/239560/s16/macbook-pro-13-silver-m1-thumb-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>MacBook Pro 13 inch M1 2020 </h3>
+                            <span class = "span-gia-tien-san-pham-content-1">29</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">990</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-11%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/44/231250/s16/macbook-air-m1-2020-gold-thumb-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>MacBook Air 13 inch M1 2020 8-Core GPU</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">11</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">990</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-20%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+
+                    <div class="five-col san-pham-chung-content">
+                        <div class="div-anh-san-pham-content">
+                            <img src="https://cdn.tgdd.vn/Products/Images/5698/238061/s16/thumb-imac-24inch-blue-1-650x650.png" alt="" class="img-san-pham-content">
+                        </div>
+                        <div class="div-tieu-de-san-pham-content">
+                            <h3>iMac 24 inch M1 2021 7-Core GPU</h3>
+                            <span class = "span-gia-tien-san-pham-content-1">11</span> <span>.</span> <span class="span-gia-tien-san-pham-content-2">990</span> <span>.</span> <span class="gia-tien-san-pham-content-3">000</span> <span>đ (-20%)</span>
+                        </div>
+                        <div class="rating-star-item-css display-flex">
+                            <div class="two-col display-flex">
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <i class="bi bi-star-fill rating-star-checked"></i>
+                                <p style="color: #ccc;" >(69)</p>
+                            </div>
+                        </div>
+                        <div class="divthem-vao-gio-hang display-flex">
+                            <button class="btn-them-vao-gio"><i class="bi bi-cart-plus"></i>Thêm vào giỏ hàng</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <!-- Phần ảnh intro -->
+            <div class="div-anh-intro" >
+                <div class="lam-mo-anh"></div>
+                <img style="width: 100%; height: 100%;" src="https://images.unsplash.com/photo-1568607689150-17e625c1586e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt="" class="anh-intro">
+                <div class="content-anh-intro-container">
+                    <div class="two-col anh-intro-content1">
+                        <p>Vì sao</p>
+                        <p>nên chọn LB?</p>
+                </div>
+                    <div class="two-col anh-intro-content2">
+                        <p>Uy tín, trẻ trung, năng động, LB luôn mang đến cho khách hàng trải nghiệm tuyệt vời nhất. Với hơn 5 năm kinh nghiệm, cùng với đội ngũ nhân viên trẻ trung, LB luôn tự hào là một trong những công ty kinh doanh số 1 Khu vực miền Trung</p>
+                        <p>LB-With us, nothing is impossible</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Phần cảm nhận khách hàng -->
+            <div class="tieu-de" >
+                <div style="display: inline-block; margin-left: 51%; transform: translateX(-50%); width: 24.5%; text-align: center; margin-top: 20px;" class="tieu-de-item"><p>CẢM NHẬN KHÁCH HÀNG</p></div>
+            </div>
+            <div class="reviewer-container display-flex">
+                <div class="three-col reviewer-content">
+                    <div class="three-row display-flex"><div class="div-reviewer-img"><img src="https://cdn.vox-cdn.com/thumbor/e_sctoqOzOwgQde0Sk22YWK6k4g=/0x0:496x296/1400x1050/filters:focal(209x109:287x187):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/54792895/ronaldo_3.0.png" alt="" srcset=""></div></div>
+                    <div style="text-align: center; padding-top: 10px;" class="three-row">C.Ronaldo</div>
+                    <div class="three-row">
+                        <div class="two-row display-flex">                                
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i></div>
+                        <div class="two-row display-flex">Tuyệt lắm!!!!!!!</div>
+                    </div>
+                </div>
+
+                <div class="three-col reviewer-content">
+                    <div class="three-row display-flex"><div class="div-reviewer-img"><img src="https://cdn.vox-cdn.com/thumbor/e_sctoqOzOwgQde0Sk22YWK6k4g=/0x0:496x296/1400x1050/filters:focal(209x109:287x187):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/54792895/ronaldo_3.0.png" alt="" srcset=""></div></div>
+                    <div style="text-align: center; padding-top: 10px;" class="three-row">C.Ronaldo</div>
+                    <div class="three-row">
+                        <div class="two-row display-flex">                                
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i></div>
+                        <div class="two-row display-flex">Tuyệt lắm!!!!!!!</div>
+                    </div>
+                </div>
+
+                <div class="three-col reviewer-content">
+                    <div class="three-row display-flex"><div class="div-reviewer-img"><img src="https://cdn.vox-cdn.com/thumbor/e_sctoqOzOwgQde0Sk22YWK6k4g=/0x0:496x296/1400x1050/filters:focal(209x109:287x187):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/54792895/ronaldo_3.0.png" alt="" srcset=""></div></div>
+                    <div style="text-align: center; padding-top: 10px;" class="three-row">C.Ronaldo</div>
+                    <div class="three-row">
+                        <div class="two-row display-flex">                                
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i></div>
+                        <div class="two-row display-flex">Tuyệt lắm!!!!!!!</div>
+                    </div>
+                </div>
+
+                <div class="three-col reviewer-content">
+                    <div class="three-row display-flex"><div class="div-reviewer-img"><img src="https://cdn.vox-cdn.com/thumbor/e_sctoqOzOwgQde0Sk22YWK6k4g=/0x0:496x296/1400x1050/filters:focal(209x109:287x187):format(png)/cdn.vox-cdn.com/uploads/chorus_image/image/54792895/ronaldo_3.0.png" alt="" srcset=""></div></div>
+                    <div style="text-align: center; padding-top: 10px;" class="three-row">C.Ronaldo</div>
+                    <div class="three-row">
+                        <div class="two-row display-flex">                                
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i>
+                            <i class="bi bi-star-fill rating-star-checked"></i></div>
+                        <div class="two-row display-flex">Tuyệt lắm!!!!!!!</div>
+                    </div>
+                </div>
+
+            </div>
+            <!-- Thương hiệu -->
+            <div class="tieu-de" >
+                <div style="width: 23.5%;" class="tieu-de-item"><p>THƯƠNG HIỆU HỢP TÁC</p></div>
+            </div>
+            <div class="brand-container display-flex">
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt="" srcset=""></div>
+
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-iphone-220x48.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/OPPO42-b_5.jpg" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/Realme42-b_37.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt="" srcset=""></div>
+                <div class="five-col brand-item"><img src="https://cdn.tgdd.vn/Brand/1/logo-xiaomi-220x48-5.png" alt="" srcset=""></div>
+            </div>
+
+            <!-- Blog -->
+            <div class="tieu-de">
+                <div style="width: 13.5%; margin-top: 50px; transform: translateX(-50%); margin-left: 50%; text-align: center; " class="tieu-de-item"><p>LB Blog</p></div>
+            </div>
+
+            <div class="Blog-container display-flex">
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+
+                <div class="three-col blog-item">
+                    <div class="two-row blog-img"><img src="https://images.unsplash.com/photo-1653921113685-f83e922f1107?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80" alt=""></div>
+                    <div class="two-row blog-content">
+                        <div class="blog-content-child-1 two-col"><h3>Siêu phẩm Iphone 14 sắp ra mắt</h3></div>
+                        <div class="blog-content-child-2 two-col"><h4>Dự kiến sẽ ra mắt vào tháng 9 tới đây, series Iphone 14 sẽ ra mắt..... <a href="">Đọc tiếp<i class="bi bi-caret-down-fill"></i></a></h4></div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+       <footer class="footer">
+        <div class="address">
+            <div class="ft-title ">LB</div>
+            <div class="ft-address "><i class="fa-solid fa-location-dot" style="color:#ff6c4b;"></i>  Address:113 Phan Duy Vinh, ĐD, ĐB, Quảng Nam.</div>
+            <div class="ft-tel "><i class="fa-solid fa-phone" style="color:#ff6c4b"></i>  Hotline:18001090</div>
+            <div class="ft-email "><i class="fa-solid fa-envelope" style="color:#ff6c4b"></i>  lb21it@vku.udn.vn</div>
+        </div>
+      <div class="send">
+          <div class="ft-sb">ĐĂNG KÍ ĐỂ NHẬN SẢN PHẨM MỚI</div>
+          <input type="text" name="" placeholder="Nhập email của bạn... " class="ft-input">
+          <button class="ft-button"><i class="fa-solid fa-paper-plane"></i></button>
+          <div style="text-align: center;margin-top: 15px;color: #888888;">Cập nhật những linh kiện mới từ LB nhé!</div>
+          <div class="ft-iconfb icon-footer"><i class="fa-brands fa-facebook "></i></div>
+          <div class="ft-iconyt icon-footer"><i class="fa-brands fa-youtube "></i></div>
+          <div class="ft-iconins icon-footer"><i class="fa-brands fa-instagram "></i></div>
+      </div>
+      <div class="information">
+          <div class="ft-mg">
+              <div class="ft-view">Bạn nên xem</div>
+              <div class="ft-gt">Giới thiệu</div>
+              <div class="ft-ptgh">Phương thức giao hàng</div>
+              <div class="ft-pttt">Phương thức thanh toán</div>
+              <div class="ft-csbh">Chính sách bảo hành</div>
+              <div class="ft-csdt">Chính sách đối trả</div>
+              <div class="ft-csbm">Chính sách bảo mật</div>
+
+          </div>
+      </div>
+      <hr width="90%">
+      <div style="text-align:center;color:#888888;">Copyrights <i class="fa-solid fa-copyright"></i> 2021 by LB</div>
+       </footer>
+
+    </div>
+
+
+    <!--Form log in-->
+
+    <div class="log-in js-log-in">
+        <form action="">
+            <div class="container-log-in  js-container-log-in">
+                <div class="div-icon-close js-div-icon-close"><i class="bi bi-x"></i></div>
+                <div  class="header-log-in font-b">
+                    <h3>Chào mừng đến với</h3>
+                    <img src="./assets/image/logo/logofulldaomau1.png" alt="" class="logo-log-in">
+                </div>
+                <div class="body-log-in">
+                    <label for="">
+                        <i class="ti-user"></i>
+                        Tài khoản
+                    </label>
+                    <input class="input-log-in" type="text" placeholder="Nhập tên tài khoản">
+                    <div class="position-relative">
+                        <label for="">
+                            <i class="ti-lock"></i>
+                            Mật khẩu
+                        </label>
+                        <input class="input-log-in" type="password" name="" id="pass-input-log-in" placeholder="Nhập mật khẩu...">
+                        <i id="icon-eye-hide" class="bi bi-eye-slash-fill show-eyes-pass position-absolute"></i>
+                        <i id="icon-eye-show" class="bi bi-eye-fill show-eyes-pass position-absolute hidden"></i>
+                    </div>
+                        <button class="btn-log-in">
+                        Đăng nhập
+                    </button>
+                    <p style="text-align: center; color: rgb(121, 118, 118);">hoặc đăng nhập bằng</p>
+                    <button class="btn-sign-up-google">
+                        <i class="bi bi-google"></i>
+                         Google
+                    </button>
+                    <button class="btn-sign-up-face-book" >
+                        <i class="bi bi-facebook"></i>
+                         Facebook
+                    </button>
+    
+                    <p style="text-align: center;">Bạn chưa có tài khoản? Đăng kí <a class="a-sign-form" href="./registration.html">tại đây.</a></p>
+                    
+                </div>
+            </div>
+        </form>
+    </div>
+    <!-- Cart page -->
+    <div class="cart-shopping" style="right: -100%;">
+        <div class="cart-items">
+                <div class="cart-title-1 cart-title">GIỎ HÀNG CỦA BẠN</div>
+                <div class="cart-title-3">
+                    <div class="three-col cart-title-3ab">Sản phẩm</div>
+                    <div class="three-col cart-title-3ab">Số lượng</div>
+                    <div class="three-col cart-title-3ab">Giá(VNĐ)</div>
+                </div>
+
+                <div class="cart-is-emty-container">
+                    <i class="bi bi-cart-x"></i>
+                    Chưa có sản phẩm nào trong giỏ hàng của bạn
+                </div>
+        </div>
+        <div  class="cart-summary">
+            <div class="cart-title">TỔNG THANH TOÁN</div>
+            <div class="container-summary-total">
+                <div class="cart-summary-items-1 display-flex">
+                    <div class="two-col"><h3 style="float:left;">Tổng sản phẩm</h3></div>
+                    <div class="two-col"><span style="float: right; font-size: 20px;" class="js-cart-tong-so-luong"></span></div>
+                </div>
+                <div class="cart-vouvher">
+                    <h5>Mã giảm giá</h5>
+                    <input class="input-cart-voucher" type="text" placeholder="Nhập mã giảm vào đây">
+                </div>
+                <div class="cart-summary-items-2 display-flex">
+                    <div class="two-col"><h3 style="float:left;">Tổng số tiền</h3></div>
+                    <div class="two-col"><span style="float: right;" class="js-cart-tong-so-luong-tien">0</span> <span style="float: right; font-size: 20px;">đ</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div class="nut-back-to-shop-cart"><i style="margin-right: 5px;" class="bi bi-caret-right-fill"></i>Đóng giỏ hàng</div>
+        <button class="nut-chot-don">Thanh toán ngay</button>
+    </div>
+    <!-- Alert custom -->
+    <div class="alert-custom-A" style="color: #ccc;">
+        <div class="alert-custom-content">
+            <div class="icon-warning-alert display-flex"><i class="fa-solid fa-circle-exclamation"></i></div>
+            <div class="alert-custom-message">
+                <span>Opps! Hãy mở giỏ hàng xem nhé</span>
+                <span>Có vẻ sản phẩm này đã có trong giỏ hàng rùi đó</span>
+            </div>
+        </div>
+        <div class="alert-progress-A"></div>
+
+    </div>
+
+    <div class="alert-custom-B" style="color: #ccc;">
+        <div class="alert-custom-content">
+            <div class="icon-warning-alert display-flex"><i class="fa-solid fa-circle-check"></i></div>
+            <div class="alert-custom-message">
+                <span>Cám ơn bạn vì đã chọn LB ^^</span>
+                <span>Đơn hàng của bạn đã được xác nhận. Vui lòng kiểm tra email (sđt)</span>
+            </div>
+        </div>
+        <div class="alert-progress-B"></div>
+
+    </div>
+
+
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+    <script src="./assets/js/custom.js"></script>
+</body>
+</html>
